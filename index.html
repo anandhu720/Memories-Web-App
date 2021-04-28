@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- fontstyle -->
+     <link
+     href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+     rel="stylesheet"
+   />
+
+   <link rel="stylesheet" href="css/navbar.css">
+   <link rel="stylesheet" href="css/master.css">
+   <link rel="stylesheet" href="css/rightslidebar.css">
+   <link rel="stylesheet" href="css/attendance.css">
+   <link rel="stylesheet" href="css/fq.css">
+   <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    
+      <section class="navbar">
+        <div class="topnav" id="myTopnav">
+          <img src="data:image/png;base64,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" class="img-logo" alt="icon" height="50px" width="130px">
+            <a href="./login.html">Sign in</a>
+            <a href="#">Change Password</a>
+            <a href="#">Examination</a>
+            <a href="">Time-table</a>
+            <a href="#">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </section>
+
+
+    <section class="body-part" id=home>
+          <div class="col-left content-right">
+            
+            <section class="profile">
+              <div class="card">
+                <div class="profile-img">
+                  <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="profile-img" class="profile-image">
+                </div>
+                <div class="profile-heading">
+                    <h1>Name : Loreum</h1>
+                    <h3>section of computer science</h3>
+                    <h4>id : 12345678</h4>
+                </div>
+              </div>
+
+              <div class="feature-buttons">
+                <button class="btn-right">Loreum</button >
+                <button class="btn-right">Loreum</button >
+                <button class="btn-right">Loreum</button >
+                <button class="btn-right">Loreum</button >
+                <button class="btn-right">Loreum</button >
+              </div>
+
+              <div class="feature-options">
+                <select class="form-items form-items1">
+                  <option value="" disabled selected hidden>Loreum Loreum</option>
+                  <option value="">Loreum</option>
+                  <option value="">Loreum</option>
+                  <option value="">Loreum</option>
+                  <option value="">Loreum</option>
+              </select><br>
+              <select class="form-items form-items1">
+                <option value="" disabled selected hidden>Loreum Loreum</option>
+                <option value="">Loreum</option>
+                <option value="">Loreum</option>
+                <option value="">Loreum</option>
+                <option value="">Loreum</option>
+            </select><br>
+            <select class="form-items form-items1">
+              <option value="" disabled selected hidden>Loreum Loreum</option>
+              <option value="">Loreum</option>
+              <option value="">Loreum</option>
+              <option value="">Loreum</option>
+              <option value="">Loreum</option>
+          </select><br>
+              </div>
+              
+
+            </section>
+              
+          </div>
+
+          <div class="col-right">
+                  <div class="content-right">
+                     
+                    <section class="total-attendance">
+                      <h1 class="total-attendance-heading">Attendance</h1>
+                        <div class="container card">
+                            <div class="skills total">90%</div>
+                        </div>
+                    </section>
+                    <section class="time-table">
+                      <h1 class="total-attendance-heading">Time Table</h1>
+                      <div class="card">
+                        <ul class="timetable-list">
+                          <li class="timetable-item">MTH231 (Dr.lorum) &nbsp;&nbsp;&nbsp;Time : 9 am to 10 am </li>
+                          <li class="timetable-item">CSE202 (Dr.lorum) &nbsp;&nbsp;&nbsp;Time : 10 am to 11 am </li>
+                          <li class="timetable-item">CSE326 (Dr.lorum) &nbsp;&nbsp;&nbsp;Time : 12 pm to 1 pm </li>
+                          <li class="timetable-item">PHY105 (Dr.lorum) &nbsp;&nbsp;&nbsp;Time : 1 pm to 2 pm </li>
+                          <li class="timetable-item">PEL132 (Dr.lorum) &nbsp;&nbsp;&nbsp;Time : 3 pm to 4 pm </li>
+                        </ul>
+                      </div>
+                    </section>
+
+
+                    <section class="fq">
+                      <div class="fq-section">
+                      <div class="text-container">
+                          <div class="section-title text-center">
+                              <h1 style="font-size:4rem;">Announcements</h1>
+                          </div>
+                          <div class="fq-box">
+                              <ol>
+                                  <li>
+                                      <h2>Lorem ipsum dolor</h2>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit. Varius duis at consectetur lorem donec massa sapien faucibus et. Cras semper auctor neque vitae tempus quam.</p>
+                                  </li>
+                                  <li>
+                                      <h2>Lorem ipsum dolor</h2>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit. Varius duis at consectetur lorem donec massa sapien faucibus et. Cras semper auctor neque vitae tempus quam.</p>
+                                  </li>
+                                  <li>
+                                      <h2>Lorem ipsum dolor</h2>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit. Varius duis at consectetur lorem donec massa sapien faucibus et. Cras semper auctor neque vitae tempus quam.</p>
+                                  </li>
+                                  <li>
+                                      <h2>Lorem ipsum dolor</h2>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit. Varius duis at consectetur lorem donec massa sapien faucibus et. Cras semper auctor neque vitae tempus quam.</p>
+                                  </li>
+                                  <li>
+                                      <h2>Lorem ipsum dolor</h2>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit. Varius duis at consectetur lorem donec massa sapien faucibus et. Cras semper auctor neque vitae tempus quam.</p>
+                                  </li>
+                                  <li>
+                                      <h2>Lorem ipsum dolor</h2>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit. Varius duis at consectetur lorem donec massa sapien faucibus et. Cras semper auctor neque vitae tempus quam.</p>
+                                  </li>
+                                  <li>
+                                      <h2>Lorem ipsum dolor</h2>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit. Varius duis at consectetur lorem donec massa sapien faucibus et. Cras semper auctor neque vitae tempus quam.</p>
+                                  </li>
+                              </ol>
+                          </div>
+                      </div>
+                      </div>
+                  </section>
+
+                  <section>
+                    <div class="card teacher-section">
+                        <h1 class="teacher-leave-heading">Teacher  On Leave</h1>
+                        <p class="teacher-details">* Dr.Loreum loreum : Full Day</p>
+                        <p class="teacher-details">* Dr.Loreum loreum : Half Day</p>
+                        <p class="teacher-details">* Dr.Loreum loreum : Full Day</p>
+                    </div>
+                  </section>
+
+                  <div class="footer">
+                    <div class="contain">
+                      <div class="col">
+                        <h1>Loreum
+                        </h1>
+                        <ul>
+                          <li>Loreum
+                          </li>
+                          <li>Loreum</li>
+                          <li> Loreum </li>
+                          <li> Loreum </li>
+                          <li> Loreum </li>
+                        </ul>
+                      </div>
+                      <div class="col">
+                        <h1> Loreum </h1>
+                        <ul>
+                          <li> Loreum
+                          </li>
+                          <li> Loreum
+                          </li>
+                          <li>Loreum
+                          </li>
+                          <li> Loreum 
+                          </li>
+                          <li>Loreum
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col">
+                        <h1> Loreum </h1>
+                        <ul>
+                          <li>Loreum 
+                          </li>
+                          <li> Loreum
+                          </li>
+                          <li>Loreum 
+                          </li>
+                          <li>Loreum
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  </div>
+          </div>
+      </div>
+  </section>
+  
+
+
+    <script src="js/navbar.js"></script>
+</body>
+</html>

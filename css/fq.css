@@ -1,0 +1,53 @@
+
+.fq-section{
+    margin: 60px 60px;
+    background-color: #f6e6e4;
+    box-shadow: 1px 3px 5px 1px #000;
+    padding: 35px 50px 20px 50px;
+    height: 1000px;
+    overflow: scroll;
+}
+
+.fq-section:hover{
+    transform: scale(1.01);
+}
+
+.fq-section .section-title{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto 70px auto;
+    color: #3f72af;
+    text-shadow:1px 1px 1px #485460;
+}
+
+.fq-box{
+    margin: 10px 10px 10px 10px;
+}
+
+.fq-section .fq-box li{
+    margin: 30px;
+}
+
+.fq-section .fq-box h2{
+    font-size: 22px;
+    color: midnightblue;
+}
+
+.fq-section .fq-box p{
+    margin: 10px;
+    font-size: 19px;
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .fq-section{
+        margin: 60px 10px;
+        padding:5px 0px;
+        height: 500px;
+    }
+
+}
+
+

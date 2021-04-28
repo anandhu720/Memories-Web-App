@@ -1,0 +1,38 @@
+
+.col-left {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    background-image: linear-gradient(to left ,#fcecdd   ,white);
+    color: #02475e;
+    height: 100%;
+    position: fixed;
+    overflow:auto;
+  }
+
+  .col-right {
+    margin-left: 400px;
+    padding: 1px 16px;
+  }
+
+  .content-right {
+    margin-top:100px;
+  }
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .content-right {
+        margin-top:200px;
+    }
+    .col-left{
+        width:170px;
+    }
+    .col-right {
+        margin-left:180px;
+    }
+   
+}
+
+
