@@ -57,11 +57,11 @@ After this your server will be running in port 5000 and frontend will be running
 
 ## Development
 
-Want to contribute? Great!
+Want to contribute? Great !!!!
 
 I always welcome contributions.First you need to make an issue and then we can talk and do.
 
 ## Contact Me
 
-E-Mail Id
+My E-Mail Id :
 anandhu4310@gmail.com
