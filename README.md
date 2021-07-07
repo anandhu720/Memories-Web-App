@@ -1,14 +1,14 @@
-# MemoriesCard Web APP
+# Memories Card Web APP
 ##  A MERN WEB APPLICATION.
 
-MemoriesCard APP is a MERN web application , which is mobile-responsive also,
+Memories Card APP is a MERN web application , which is mobile-responsive also,
 as I told I mainly used mongoDB , Express , ReactJS , NodeJS for building it.
 
 - Completely functionable website
 - Responsive
 - ✨Build while studying MERN
 
-## Hosted MemoriesCard Web App Link.
+## Hosted Memories Card Web App Link.
 https://memoriescard-app.netlify.app
 
 
