@@ -8,8 +8,6 @@ as I told I mainly used mongoDB , Express , ReactJS , NodeJS for building it.
 - Responsive
 - ✨Build while studying MERN
 
-## Hosted Memories Card Web App Link.
-https://memoriescard-app.netlify.app
 
 
 ## Features
